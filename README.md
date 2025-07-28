@@ -4,4 +4,4 @@ The D365 authorisation token and URL are parameterised so, to make use of this f
 
 ## Current limitations
 - It is only looking for methods that are decorated with the contract member attribute.
-- Contracts that use external class libraries as parameters are also not supported yet.
+- Contracts that use external class libraries as parameters are also not supported yet. The collection will get generated but there will be no request body.
